@@ -1,7 +1,7 @@
 library(tidyverse)
 
 #the next line imports the data 
-gapminder_1997 <- read_csv("data/gapminder_1997.csv")
+gapminder_1997 <- read_csv("data/gapminder_.csv")
 
 Sys.Date()
 getwd() #prints the current working directory
