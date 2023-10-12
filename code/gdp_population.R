@@ -41,4 +41,4 @@ ggplot(data=gapminder_1997) +
   labs(x= "GDP Per Capita", title = "Do people in wealthy countries live longer?", size = "Population (in millions)") +
   geom_point() + #geom_point used to create scatter plots
   scale_color_brewer(palette = "Set2") #changes color palette #particularly well suited to display discrete values on a map
-  
+  ggsave("figures/gdpPercap_lifeExp.png")
